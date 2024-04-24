@@ -20,7 +20,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eead30d9-0feb-4b21-9829-b68458b08b23" name="更改" comment="修改注释" />
+    <list default="true" id="eead30d9-0feb-4b21-9829-b68458b08b23" name="更改" comment="修改注释">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Src/App_cmd.c" beforeDir="false" afterPath="$PROJECT_DIR$/App/Src/App_cmd.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,10 +34,15 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="jiangnan" />
+      </list>
+    </option>
     <option name="PUSH_TAGS">
       <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -141,7 +149,7 @@
       <workItem from="1712750527333" duration="28904000" />
       <workItem from="1712927384992" duration="6163000" />
       <workItem from="1713956743496" duration="1071000" />
-      <workItem from="1713968391099" duration="1542000" />
+      <workItem from="1713968391099" duration="1938000" />
     </task>
     <task id="LOCAL-00001" summary="增加注释">
       <option name="closed" value="true" />
@@ -175,11 +183,22 @@
       <option name="project" value="LOCAL" />
       <updated>1713969625158</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改注释">
+      <option name="closed" value="true" />
+      <created>1713970328267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713970328267</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="VCPKGProject">
     <isAutomaticCheckingOnLaunch value="false" />
@@ -201,17 +220,6 @@
     <MESSAGE value="增加注释" />
     <MESSAGE value="修改注释" />
     <option name="LAST_COMMIT_MESSAGE" value="修改注释" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/App/Src/App_cmd.c</url>
-          <line>27</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
