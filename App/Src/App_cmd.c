@@ -15,7 +15,7 @@
 //TODO 应优化全局变量
 char CMD_Buffer[50];////////////////////串口1
 int CMD_Buffer_Count = 0;//缓存区计数
-int CMD_Flag = 0;
+int CMD_Flag = 0;//缓存区标志
 
 uint8_t usart_cmd_rx_buffer[1];//串口缓存区
 /**
