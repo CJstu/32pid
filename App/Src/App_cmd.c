@@ -27,7 +27,7 @@ uint8_t usart_cmd_rx_buffer[1];//串口缓存区
 void cmd(void)
 {
     if(CMD_Flag)
-        CMD_Flag = 0;
+        CMD_Flag = 0;//清除标志位
     else
         return;
     if     (!strcmp(CMD_Buffer,"hi"))			            {Printf(USART1,"hiOK\r\n");}
