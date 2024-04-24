@@ -17,7 +17,7 @@ char CMD_Buffer[50];////////////////////串口1
 int CMD_Buffer_Count = 0;
 int CMD_Flag = 0;
 
-uint8_t usart_cmd_rx_buffer[1];//串口缓存区
+uint8_t usart_cmd_rx_buffer[1];////串口缓存区
 /**
   *brief  串口控制台cmd命令
   *note   None
